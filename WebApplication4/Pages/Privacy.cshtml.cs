@@ -14,6 +14,7 @@ namespace WebApplication4.Pages
 
         public void OnGet()
         {
+            throw new Exception("Test exception for demonstration purposes.");
         }
     }
 

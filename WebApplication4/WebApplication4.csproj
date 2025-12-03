@@ -4,6 +4,13 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/5fc74f45-8e9b-40c9-bf39-0718f695cafe/resourceGroups/POC_Azure/providers/microsoft.insights/components/second-poc-web-app</ApplicationInsightsResourceId>
+    <UserSecretsId>c0569c7b-260e-4173-a593-8aab2dd6213b</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.17.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
